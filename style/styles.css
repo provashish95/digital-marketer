@@ -80,21 +80,58 @@ body {
 .hero-right {
     width: 100%;
 }
-.title{
+
+.title {
     font: 3rem;
     text-align: center;
     font-weight: 400;
 }
-.hero-container .title{
+
+.hero-container .title {
     text-align: left;
     padding-left: 1rem;
 }
-.description{
+
+.description {
     padding: 0 1rem;
     font-size: 1rem;
     line-height: 1.5rem;
     text-align: justify;
 }
+
+/* resume section.... */
+.resume-container {
+    margin-top: 1rem;
+    padding: 6.5rem 1rem 0 1rem;
+    min-height: 100vh;
+}
+.resume-sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 1.25rem;
+    line-height: 1.6rem;
+    margin-bottom: 0;
+}
+
+.line {
+    background-color: gray;
+    width: 100px;
+    height: 2px;
+    margin: 0.25rem 0 2rem 0;
+}
+
+.inner-line {
+    width: 30px;
+    height: 2px;
+    background-color: rgb(39, 24, 247);
+}
+
+
 
 @media (min-width: 576px) {
     .container {
